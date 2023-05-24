@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Shopper Layout</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="layout.css">
+    <!-- empty tags, standalone unpaired elements -->
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="container header-section">
+        <div class="row">
+            <figure class="col-xl-3 logo-image ">
+                <img src="images/logo.png" alt="">
+            </figure>
+            <div class="col-xl-9">
+                <ul class="nav justify-content-end top-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-house-user"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New user?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-address-book"></i>Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-product-hunt"></i>Products</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- main menu start -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary main-menu">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">E-Shopper</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Website</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Coupons</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Clothing Option
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Mens Wear</a></li>
+                                <li><a class="dropdown-item" href="#">Women Wear</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- main menu end -->
+    <!-- main slider start -->
+    <div class="container main-slider">
+        <div id="carouselExample_main" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-xl-6 slider-content">
+                            <h1> <span>E</span>-SHOPPER</h1>
+                            <h2>100% Responsive Website</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, odit vitae eaque ullam
+                                nihil, facere at minima corrupti excepturi aspernatur soluta quos repudiandae magnam
+                                earum numquam assumenda vero distinctio. Recusandae!</p>
+                            <p> <button class="btn btn-warning"> GET IT NOW</button></p>
+                        </div>
+                        <div class="col-xl-6 text-center">
+                            <img src="images/girl2.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-xl-6 slider-content">
+                            <h1> <span>E</span>-SHOPPER</h1>
+                            <h2>100% Responsive Website</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, odit vitae eaque ullam
+                                nihil, facere at minima corrupti excepturi aspernatur soluta quos repudiandae magnam
+                                earum numquam assumenda vero distinctio. Recusandae!</p>
+                            <p> <button class="btn btn-warning"> GET IT NOW</button></p>
+                        </div>
+                        <div class="col-xl-6 text-center">
+                            <img src="images/girl3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-xl-6 slider-content">
+                            <h1> <span>E</span>-SHOPPER</h1>
+                            <h2>100% Responsive Website</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, odit vitae eaque ullam
+                                nihil, facere at minima corrupti excepturi aspernatur soluta quos repudiandae magnam
+                                earum numquam assumenda vero distinctio. Recusandae!</p>
+                            <p> <button class="btn btn-warning"> GET IT NOW</button></p>
+                        </div>
+                        <div class="col-xl-6 text-center  slider-image">
+                            <img src="images/girl1.jpg" class="img-fluid" alt="">
+                            <img src="images/pricing.png" class="pricing" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample_main"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample_main"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- main slider end -->
+    <!-- Product start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <!-- category start -->
+                <section class="categories">
+                    <h2 class="text-uppercase text-center eshopper-headings">categories</h2>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Men
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"> <input type=checkbox> &nbsp;T-shirt <span
+                                                class="float-end">(50)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Shirt <span
+                                                class="float-end">(150)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Wallet <span
+                                                class="float-end">(50)</span></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Women
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"> <input type=checkbox> &nbsp;T-shirt <span
+                                                class="float-end">(40)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Top Wear <span
+                                                class="float-end">(75)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Shoes <span
+                                                class="float-end">(250)</span></li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Kids
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"> <input type=checkbox> &nbsp;T-shirt <span
+                                                class="float-end">(40)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Shirt <span
+                                                class="float-end">(50)</span></li>
+                                        <li class="list-group-item"><input type=checkbox> &nbsp;Jeans <span
+                                                class="float-end">(150)</span></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- category end -->
+
+                <!-- brand start -->
+                <section class="brands">
+                    <h2 class="text-uppercase text-center eshopper-headings">brands</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input type=checkbox> &nbsp;Adidas <span
+                                class="float-end">(100)</span></li>
+                        <li class="list-group-item"><input type=checkbox> &nbsp;Puma <span class="float-end">(90)</span>
+                        </li>
+                        <li class="list-group-item"><input type=checkbox> &nbsp;Fila <span class="float-end">(45)</span>
+                        </li>
+                        <li class="list-group-item"><input type=checkbox> &nbsp;Zara <span
+                                class="float-end">(550)</span></li>
+                        <li class="list-group-item"><input type=checkbox> &nbsp;Celio <span
+                                class="float-end">(280)</span></li>
+                    </ul>
+                </section>
+                <!-- brand end -->
+                <!-- side bannner start -->
+                <div class="text-center">
+                    <img src="images/shipping.jpg" class="img-fluid" alt="">
+                </div>
+                <!-- side bannner end -->
+                <!-- video start -->
+                <section>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/GBOpshP94nA"
+                        style="padding:20px;"></iframe>
+                </section>
+                <!-- video end -->
+            </div>
+            <div class="col-xl-9">
+                <!-- upcoming products start -->
+                <section class="upcoming-products">
+                    <h2 class="text-uppercase text-center eshopper-headings">Upcoming Products</h2>
+
+                    <div class="row">
+                        <figure class="col-xl-4 col-6 text-center product-info border ">
+                            <img src="images/product1.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>3000</del>2000</h2>
+                                <p>Levis Tshirt</p>
+                                <p> <button class="btn-warning btn " data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop"><i class="fa-solid fa-cart-shopping"></i> Add
+                                        to
+                                        Cart</button></p>
+                            </figcaption>
+                            <img src="images/new.png" class="new-image" alt="">
+                            
+                        </figure>
+                        <figure class="col-xl-4 col-6 text-center product-info">
+                            <img src="images/product2.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>5000</del>2000</h2>
+                                <p>CK Tshirt</p>
+                                <p> <button class="btn-warning btn"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                        Cart</button></p>
+                            </figcaption>
+                            <img src="images/sale.png" class="new-image" alt="">
+
+                        </figure>
+                        <figure class="col-xl-4 col-6 text-center product-info">
+                            <img src="images/product3.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>1500</del>500</h2>
+                                <p>Kappa wear</p>
+                                <p> <button class="btn-warning btn"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                        Cart</button></p>
+                            </figcaption>
+                            <img src="images/new.png" class="new-image" alt="">
+
+                        </figure>
+                        <figure class="col-xl-4 col-6 text-center product-info">
+                            <img src="images/product4.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>700</del>400</h2>
+                                <p>H&M Tshirt</p>
+                                <p> <button class="btn-warning btn"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                        Cart</button></p>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-xl-4 col-6 text-center product-info">
+                            <img src="images/product5.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>5000</del>2000</h2>
+                                <p>Zara Tshirt</p>
+                                <p> <button class="btn-warning btn"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                        Cart</button></p>
+                            </figcaption>
+                        </figure>
+                        <figure class="col-xl-4 col-6 text-center product-info">
+                            <img src="images/product6.jpg" alt="" title="Product 1" class="img-fluid" />
+
+                            <figcaption>
+                                <h2>&#8377;<del>700</del>100</h2>
+                                <p>Celio Tshirt</p>
+                                <p>
+                                    <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                        Cart</button>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <!-- upcoming products end  -->
+
+                <!-- Featured Products start -->
+                <section class="featured-products">
+                    <h2 class="text-uppercase text-center eshopper-headings">Featured Products</h2>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Men</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Women</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Kids</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <div class="row">
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery3.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery2.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery4.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center d-none d-sm-block">
+                                    <img src="images/gallery1.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">
+                            <div class="row">
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery1.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+
+
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery2.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery3.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center d-none d-sm-block">
+                                    <img src="images/gallery4.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">
+
+                            <div class="row">
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery4.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery2.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center">
+                                    <img src="images/gallery1.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                                <figure class="col-xl-3 col-4 text-center d-none d-sm-block">
+                                    <img src="images/gallery3.jpg" class="img-fluid" alt="">
+                                    <h4>3000</h4>
+                                    <p>Product 1</p>
+                                    <p> <button class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i>Add to
+                                            Cart</button></p>
+                                </figure>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </section>
+                <!-- Featured Products end -->
+                <!-- Recommended Products start -->
+                <section class="recommended-products">
+                    <h2 class="text-uppercase text-center eshopper-headings">Recommended Products</h2>
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend1.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend2.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center d-none d-sm-block">
+                                        <img src="images/recommend3.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend1.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend2.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center d-none d-sm-block">
+                                        <img src="images/recommend3.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend3.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center col-6">
+                                        <img src="images/recommend1.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="col-xl-4 text-center d-none d-sm-block">
+                                        <img src="images/recommend2.jpg" class="img-fluid" alt="" />
+                                        <figcaption>
+                                            <h3>
+                                                2000
+                                            </h3>
+                                            <p>Product 1</p>
+                                            <p> <button class="btn btn-warning"><i
+                                                        class="fa-solid fa-cart-shopping"></i>Add
+                                                    to Cart</button></p>
+
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+                <!-- Recommended Products end -->
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Product end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <nav class="footer-links col-xl-2 col-6">
+                    <h2 class="text-uppercase">Homestop</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kitchen & Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home Furnishing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Organization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bedding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storage & Accessories</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-xl-3">
+                    &copy; 2023 TechnoSoft Tabs
+                </div>
+                <div class="col-xl-9 text-end design-by">
+                    Design By : <a href="#">Nmk</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- modal box start -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal box end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
